@@ -8,7 +8,8 @@
           "title": "Test Card",
           "link": "https://transcendent-cascaron-2713e7.netlify.app/",
           "description": "Test Description",
-          "imagelink": "https://picsum.photos/320/160"
+          "imagelink": "https://picsum.photos/320/160",
+          "image": "/images/uploads/berwyn_campaign_logo.jpeg"
         },
         {
           "title": "Personal Site",
@@ -28,7 +29,8 @@
               "tagtext": "Nunjucks",
               "tagclass": "is-info"
             }
-          ]
+          ],
+          "image": "/images/uploads/la500_final_report.jpeg"
         },
         {
           "title": "Personal Site",
@@ -48,7 +50,8 @@
               "tagtext": "Nunjucks",
               "tagclass": "is-info"
             }
-          ]
+          ],
+          "image": "/images/uploads/ccf_brochure.jpeg"
         },
         {
           "title": "Personal Site",
@@ -68,7 +71,8 @@
               "tagtext": "Nunjucks",
               "tagclass": "is-info"
             }
-          ]
+          ],
+          "image": "/images/uploads/muslim-journeys-report.jpeg"
         }
       ]
     }
