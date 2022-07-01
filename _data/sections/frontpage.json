@@ -63,6 +63,12 @@
               "tagclass": "is-info"
             }
           ]
+        },
+        {
+          "title": "Test Card",
+          "link": "https://transcendent-cascaron-2713e7.netlify.app/",
+          "description": "Test Description",
+          "imagelink": "https://picsum.photos/320/160"
         }
       ]
     }
