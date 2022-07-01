@@ -109,28 +109,12 @@ collections:
             name: "recentprojects"
             widget: "object"
             fields:
-              - label: "Card"
+              - label: "Work"
                 name: "cardlist"
                 widget: "list"
                 fields:
-                  - { label: "Title", name: "title", widget: "string" }
                   - { label: "Image", name: "image", widget: "image" }
-                  - { label: "Link", name: "link", widget: "string" }
-                  - {
-                      label: "Description",
-                      name: "description",
-                      widget: "string",
-                    }
-                  - label: "Tag"
-                    name: "taglist"
-                    widget: "list"
-                    fields:
-                      - { label: "Tag Text", name: "tagtext", widget: "string" }
-                      - {
-                          label: "Tag Class",
-                          name: "tagclass",
-                          widget: "string",
-                        }
+                  - { label: "Body", name: "Body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
     folder: "pages"

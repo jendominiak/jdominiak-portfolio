@@ -2,9 +2,7 @@
     <div class="work-container">
         {% for card in activeComponent.cardlist %}
             <div class="work-item">
-                <img src="{{ card.image }}" alt="{{ alt }}"/>
-                <h3>{{ card.title }}</h3>
-                <p>{{ card.description | safe }}</p>
+                <img src="{{ card.image }}" alt="{{ alt }}"/> {{ layoutContent | safe }}
             </div>
         {% endfor %}
     </section>
