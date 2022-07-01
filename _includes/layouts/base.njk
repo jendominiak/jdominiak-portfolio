@@ -3,19 +3,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="“UTF-8”">
             <title>{{ pagetitle }}</title>
-            <link rel="stylesheet" href="/styles/bulma.css">
-                <link rel="stylesheet" href="/styles/styles.css">
-                    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css">
-                        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-                        <script src="https://kit.fontawesome.com/dc439e8e0d.js" crossorigin="anonymous"></script>
-                        <script src="/js/index.js"></script>
-                        <script>
-                            hljs.initHighlightingOnLoad();
-                        </script>
-                    </head>
-                    <body>
-                        {{ content | safe }}
-                        {% include "components/footer.njk" %}
-                        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-                    </body>
-                </html>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                    <link
+                        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lora:wght@400;700&display=swap"
+                        rel="stylesheet">
+                        <link rel="stylesheet" href="/styles/bulma.css">
+                            <link rel="stylesheet" href="/styles/styles.css">
+                                <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css">
+                                    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                                    <script src="https://kit.fontawesome.com/dc439e8e0d.js" crossorigin="anonymous"></script>
+                                    <script src="/js/index.js"></script>
+                                    <script>
+                                        hljs.initHighlightingOnLoad();
+                                    </script>
+                                </head>
+                                <body>
+                                    {{ content | safe }}
+                                    {% include "components/footer.njk" %}
+                                    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+                                </body>
+                            </html>

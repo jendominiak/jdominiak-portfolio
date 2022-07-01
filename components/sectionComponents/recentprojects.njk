@@ -3,8 +3,8 @@
         {% for card in activeComponent.cardlist %}
             <div class="work-item">
                 <img src="{{ card.image }}" alt="{{ alt }}"/>
-                <h2>{{ card.title }}</h2>
-                {{ card.description | safe }}
+                <h3>{{ card.title }}</h3>
+                <p>{{ card.description | safe }}</p>
             </div>
         {% endfor %}
     </section>
