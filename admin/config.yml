@@ -113,8 +113,8 @@ collections:
                 name: "cardlist"
                 widget: "list"
                 fields:
-                  - { label: "Image", name: "image", widget: "image" }
                   - { label: "Body", name: "Body", widget: "markdown" }
+                  - { label: "Image", name: "image", widget: "image" }
   - name: "pages"
     label: "Pages"
     folder: "pages"
