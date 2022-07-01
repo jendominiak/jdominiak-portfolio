@@ -16,20 +16,7 @@
           "imagelink": "https://picsum.photos/320/160",
           "link": "#",
           "description": "This 64-page Latino Americans: 500 Years of History report was designed to highlight the National Endowment for the Humanities and American Library Association Public Programs Office’s nationwide public programming initiative that supported the exploration of the rich and varied history and experiences of Latinos, who have helped shape the United States over the last five centuries.",
-          "taglist": [
-            {
-              "tagtext": "Eleventy",
-              "tagclass": "is-primary"
-            },
-            {
-              "tagtext": "NetlifyCMS",
-              "tagclass": "is-link"
-            },
-            {
-              "tagtext": "Nunjucks",
-              "tagclass": "is-info"
-            }
-          ],
+          "taglist": [],
           "image": "/images/uploads/la500_final_report.jpeg"
         },
         {
@@ -37,20 +24,7 @@
           "imagelink": "https://picsum.photos/320/160",
           "link": "#",
           "description": "A tri-fold brochure was designed to encourage support for the American Library Association’s Cultural Communities Fund, an endowment that provides funding for cultural and civic programming in libraries of all types.",
-          "taglist": [
-            {
-              "tagtext": "Eleventy",
-              "tagclass": "is-primary"
-            },
-            {
-              "tagtext": "NetlifyCMS",
-              "tagclass": "is-link"
-            },
-            {
-              "tagtext": "Nunjucks",
-              "tagclass": "is-info"
-            }
-          ],
+          "taglist": [],
           "image": "/images/uploads/ccf_brochure.jpeg"
         },
         {
@@ -58,20 +32,7 @@
           "imagelink": "https://picsum.photos/320/160",
           "link": "#",
           "description": "This 46-page Muslim Journeys report was designed to highlight the National Endowment for the Humanities and American Library Association Public Programs Office’s multi-faceted effort to bring humanities programming about Islamic history and culture to libraries and state humanities councils across the country.",
-          "taglist": [
-            {
-              "tagtext": "Eleventy",
-              "tagclass": "is-primary"
-            },
-            {
-              "tagtext": "NetlifyCMS",
-              "tagclass": "is-link"
-            },
-            {
-              "tagtext": "Nunjucks",
-              "tagclass": "is-info"
-            }
-          ],
+          "taglist": [],
           "image": "/images/uploads/muslim-journeys-report.jpeg"
         }
       ]
