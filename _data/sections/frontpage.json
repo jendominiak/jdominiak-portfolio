@@ -10,7 +10,7 @@
           "description": "These campaign logos were designed to provide a visual cue of the candidate’s key messages, build name recognition, and connect the candidate with Berwyn residents. The bold, modern design radiates energy, strength, and optimism and seeks to appeal to youth engagement with the community.",
           "imagelink": "https://picsum.photos/320/160",
           "image": "/images/uploads/berwyn_campaign_logo.jpeg",
-          "body": "### BERWYN MAYORAL CAMPAIGN LOGOS\n\nThese campaign logos were designed to provide a visual cue of the candidate’s key messages, build name recognition, and connect the candidate with Berwyn residents. The bold, modern design radiates energy, strength, and optimism and seeks to appeal to youth engagement with the community."
+          "Body": "### BERWYN MAYORAL CAMPAIGN LOGOS\n\nThese campaign logos were designed to provide a visual cue of the candidate’s key messages, build name recognition, and connect the candidate with Berwyn residents. The bold, modern design radiates energy, strength, and optimism and seeks to appeal to youth engagement with the community."
         },
         {
           "title": "Latino Americans Report",
@@ -19,7 +19,7 @@
           "description": "This 64-page Latino Americans: 500 Years of History report was designed to highlight the National Endowment for the Humanities and American Library Association Public Programs Office’s nationwide public programming initiative that supported the exploration of the rich and varied history and experiences of Latinos, who have helped shape the United States over the last five centuries.",
           "taglist": [],
           "image": "/images/uploads/la500_final_report.jpeg",
-          "body": "### *LATINO AMERICANS* REPORT\n\nThis 64-page *Latino Americans: 500 Years of History* report was designed to highlight the National Endowment for the Humanities and American Library Association Public Programs Office’s nationwide public programming initiative that supported the exploration of the rich and varied history and experiences of Latinos, who have helped shape the United States over the last five centuries."
+          "Body": "### *LATINO AMERICANS* REPORT\n\nThis 64-page *Latino Americans: 500 Years of History* report was designed to highlight the National Endowment for the Humanities and American Library Association Public Programs Office’s nationwide public programming initiative that supported the exploration of the rich and varied history and experiences of Latinos, who have helped shape the United States over the last five centuries."
         },
         {
           "title": "Community Cultural Fund Brochuer",
@@ -28,7 +28,7 @@
           "description": "A tri-fold brochure was designed to encourage support for the American Library Association’s Cultural Communities Fund, an endowment that provides funding for cultural and civic programming in libraries of all types.",
           "taglist": [],
           "image": "/images/uploads/ccf_brochure.jpeg",
-          "body": "### COMMUNITY CULTURAL FUND BROCHURE\n\nA tri-fold brochure was designed to encourage support for the American Library Association’s Cultural Communities Fund, an endowment that provides funding for cultural and civic programming in libraries of all types."
+          "Body": "### COMMUNITY CULTURAL FUND BROCHURE\n\nA tri-fold brochure was designed to encourage support for the American Library Association’s Cultural Communities Fund, an endowment that provides funding for cultural and civic programming in libraries of all types."
         },
         {
           "title": "Muslim Journeys Report",
@@ -37,11 +37,15 @@
           "description": "This 46-page Muslim Journeys report was designed to highlight the National Endowment for the Humanities and American Library Association Public Programs Office’s multi-faceted effort to bring humanities programming about Islamic history and culture to libraries and state humanities councils across the country.",
           "taglist": [],
           "image": "/images/uploads/muslim-journeys-report.jpeg",
-          "body": "### MUSLIM JOURNEYS REPORT\n\nThis 46-page Muslim Journeys report was designed to highlight the National Endowment for the Humanities and American Library Association Public Programs Office’s multi-faceted effort to bring humanities programming about Islamic history and culture to libraries and state humanities councils across the country."
+          "Body": "### MUSLIM JOURNEYS REPORT\n\nThis 46-page Muslim Journeys report was designed to highlight the National Endowment for the Humanities and American Library Association Public Programs Office’s multi-faceted effort to bring humanities programming about Islamic history and culture to libraries and state humanities councils across the country."
         },
         {
-          "body": "### HANDPICKED VEGETABLES BROCHURE\n\nProduction work for this 16-page brochure featuring PanAmerican Seed’s HandPicked collection was completed while working closely with the project’s Art Director.",
+          "Body": "### HANDPICKED VEGETABLES BROCHURE\n\nProduction work for this 16-page brochure featuring PanAmerican Seed’s HandPicked collection was completed while working closely with the project’s Art Director.",
           "image": "/images/uploads/handpicked-vegetables.jpeg"
+        },
+        {
+          "Body": "### BURPEE RECIPE CARDS\n\nThree recipe cards were designed to feature Burpee vegetables and to highlight recipe ideas showcasing the bounty of the garden.",
+          "image": "/images/uploads/burpee-recipe-cards.jpeg"
         }
       ]
     }
