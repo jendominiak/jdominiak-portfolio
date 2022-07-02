@@ -126,6 +126,13 @@ collections:
                       widget: "string",
                       required: false,
                     }
+                  - {
+                      label: "PDF",
+                      name: "pdf",
+                      widget: "file",
+                      required: false,
+                    }
+
   - name: "pages"
     label: "Pages"
     folder: "pages"
