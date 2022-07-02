@@ -114,8 +114,18 @@ collections:
                 widget: "list"
                 fields:
                   - { label: "Body", name: "body", widget: "markdown" }
-                  - { label: "Image", name: "image", widget: "image" }
-                  - { label: "Image Alt Text", name: "alt", widget: "string" }
+                  - {
+                      label: "Image",
+                      name: "image",
+                      widget: "image",
+                      required: false,
+                    }
+                  - {
+                      label: "Image Alt Text",
+                      name: "alt",
+                      widget: "string",
+                      required: false,
+                    }
   - name: "pages"
     label: "Pages"
     folder: "pages"
