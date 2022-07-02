@@ -5,6 +5,13 @@
                 {% if card.image %}
                     <img src="{{ card.image }}" alt="{{ card.alt }}"/>
                 {% endif %}
+                {% if card.title %}
+                    {% if card.pdf %}
+                        <a href="{{ card.pdf }}" target="_blank">{% markdown %}{{ card.title }}{% endmarkdown %}</a>
+                    {% else %}
+                        {% markdown %}{{ card.title }}{% endmarkdown %}
+                    {% endif %}
+                {% endif %}
                 {% markdown %}
                 {{ card.body }}
                 {% endmarkdown %}

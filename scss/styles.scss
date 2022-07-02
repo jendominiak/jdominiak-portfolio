@@ -39,7 +39,6 @@ body {
 	}
 
 	&-item {
-		margin: 1.5rem 0;
 		padding: 2rem;
 		break-inside: avoid;
 		transition: background-color 0.3s ease;
@@ -62,20 +61,22 @@ body {
 			border: 1px solid #e1e1e1;
 		}
 
-		h3 {
-			font-family: "latobold", sans-serif;
-			font-weight: 700;
-			font-size: 1.1rem;
-			line-height: 1.2;
-			text-transform: uppercase;
-			//color: #365e9b;
-			margin-top: 1.5rem;
-		}
-
 		p {
 			font-size: 1rem;
 			color: #444;
 			margin-top: 0.25rem;
+		}
+
+		a {
+			> * {
+				font-family: "latobold", sans-serif;
+				font-weight: 700;
+				font-size: 1.1rem;
+				line-height: 1.2;
+				text-transform: uppercase;
+				color: #365e9b;
+				margin-top: 1.5rem;
+			}
 		}
 	}
 }
