@@ -2,7 +2,7 @@
     <div class="work-container">
         {% for card in activeComponent.cardlist %}
             <div class="work-item">
-                <img src="{{ card.image }}" alt="{{ alt }}"/> {% markdown %}
+                <img src="{{ card.image }}" alt="{{ card.alt }}"/> {% markdown %}
                 {{ card.body }}
                 {% endmarkdown %}
             </div>

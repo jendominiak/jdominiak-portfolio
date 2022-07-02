@@ -115,6 +115,7 @@ collections:
                 fields:
                   - { label: "Body", name: "body", widget: "markdown" }
                   - { label: "Image", name: "image", widget: "image" }
+                  - { label: "Image Alt Text", name: "alt", widget: "string" }
   - name: "pages"
     label: "Pages"
     folder: "pages"
