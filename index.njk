@@ -1,10 +1,11 @@
 ---
 layout: layouts/base.njk
-pagetitle: "Page Title - Home"
+pagetitle: "Jennifer Dominiak | Portfolio"
 permalink: /
 ---
+
 {% import "components/sectionmapper.njk" as sm %}
 {% include "components/header.njk" %}
 {% for section in sections[variables.homepageSectionGroup].sectionGroupList %}
-    {{sm.sectionMapper(section)}}
+    {{ sm.sectionMapper(section) }}
 {% endfor %}
