@@ -113,7 +113,7 @@ collections:
                 name: "cardlist"
                 widget: "list"
                 fields:
-                  - { label: "Body", name: "Body", widget: "markdown" }
+                  - { label: "Body", name: "body", widget: "markdown" }
                   - { label: "Image", name: "image", widget: "image" }
   - name: "pages"
     label: "Pages"
