@@ -110,7 +110,7 @@ collections:
             widget: "object"
             fields:
               - label: "Work"
-                name: "cardlist"
+                name: "work"
                 widget: "list"
                 fields:
                   - { label: "Body", name: "body", widget: "markdown" }
