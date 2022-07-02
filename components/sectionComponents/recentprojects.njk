@@ -2,7 +2,10 @@
     <div class="work-container">
         {% for card in activeComponent.work %}
             <div class="work-item">
-                <img src="{{ card.image }}" alt="{{ card.alt }}"/> {% markdown %}
+                {% if card.image %}
+                    <img src="{{ card.image }}" alt="{{ card.alt }}"/>
+                {% endif %}
+                {% markdown %}
                 {{ card.body }}
                 {% endmarkdown %}
             </div>
