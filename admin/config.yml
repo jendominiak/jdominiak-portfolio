@@ -113,7 +113,12 @@ collections:
                 name: "work"
                 widget: "list"
                 fields:
-                  - { label: "Title", name: "title", widget: "markdown" }
+                  - {
+                      label: "Title",
+                      name: "title",
+                      widget: "markdown",
+                      required: false,
+                    }
                   - { label: "Body", name: "body", widget: "markdown" }
                   - {
                       label: "Image",
