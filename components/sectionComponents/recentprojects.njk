@@ -1,21 +1,23 @@
 <section class="work" id="work">
-    <div class="work-container">
-        {% for card in activeComponent.work %}
-            <div class="work-item">
-                {% if card.image %}
-                    <img src="{{ card.image }}" alt="{{ card.alt }}"/>
-                {% endif %}
-                {% if card.title %}
-                    {% if card.pdf %}
-                        <a href="{{ card.pdf }}" target="_blank">{% markdown %}{{ card.title }}{% endmarkdown %}</a>
-                    {% else %}
-                        {% markdown %}{{ card.title }}{% endmarkdown %}
+    <div class="grid">
+        <div class="grid-list">
+            {% for card in activeComponent.work %}
+                <div class="grid-item">
+                    {% if card.image %}
+                        <img src="{{ card.image }}" alt="{{ card.alt }}"/>
                     {% endif %}
-                {% endif %}
-                {% markdown %}
-                {{ card.body }}
-                {% endmarkdown %}
-            </div>
-        {% endfor %}
+                    {% if card.title %}
+                        {% if card.pdf %}
+                            <a href="{{ card.pdf }}" target="_blank">{% markdown %}{{ card.title }}{% endmarkdown %}</a>
+                        {% else %}
+                            {% markdown %}{{ card.title }}{% endmarkdown %}
+                        {% endif %}
+                    {% endif %}
+                    {% markdown %}
+                    {{ card.body }}
+                    {% endmarkdown %}
+                </div>
+            {% endfor %}
+        </div>
     </div>
 </section>
