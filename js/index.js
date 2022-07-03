@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 			if (window.screen.width > 820) {
 				setThreeCol();
-			} else if (window.screen.width <= 820 && window.screen.width > 425) {
+			} else if (window.screen.width <= 820 && window.screen.width > 600) {
 				setTwoCol();
 			} else {
 				setOneCol();

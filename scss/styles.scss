@@ -26,7 +26,7 @@ body {
 		width: calc(100% - 2rem);
 	}
 
-	@media (max-width: 425px) {
+	@media (max-width: 600px) {
 		display: block;
 	}
 
@@ -78,7 +78,6 @@ body {
 			> * {
 				font-family: "latobold", sans-serif;
 				font-weight: 700;
-				font-size: 1.1rem;
 				line-height: 1.2;
 				text-transform: uppercase;
 				color: #365e9b;
