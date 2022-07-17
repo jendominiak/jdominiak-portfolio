@@ -11,7 +11,7 @@ html {
 
 body {
 	letter-spacing: 1.7;
-	color: $text-black;
+	color: $dark-gray;
 	margin: 0;
 	padding: 0;
 
@@ -38,4 +38,14 @@ li {
 a {
 	color: $blue;
 	text-decoration: none;
+}
+
+.sr-only:not(:focus):not(:active) {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
 }

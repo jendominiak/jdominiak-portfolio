@@ -1,15 +1,18 @@
 <section id="work" class="work">
+    <h2 class="sr-only">Work</h2>
     <div class="grid">
         <div class="grid-list">
             {% set projects = work.projects %}
             {% for project in projects %}
-                <div class="grid-item">
+                <div class="grid-item stack-sm">
                     {% if project.image %}
                         <img src="{{ project.image }}" alt="{{ project.alt }}"/>
                     {% endif %}
                     {% if project.title %}
                         {% if project.pdf %}
-                            <a href="{{ project.pdf }}" target="_blank">{% markdown %}{{ project.title }}{% endmarkdown %}</a>
+                            <h3>
+                                <a href="{{ project.pdf }}" target="_blank">{% markdown %}{{ project.title }}</h3>
+                                {% endmarkdown %}</a>
                         {% else %}
                             {% markdown %}{{ project.title }}{% endmarkdown %}
                         {% endif %}

@@ -38,7 +38,7 @@
 	}
 
 	&-item {
-		padding: 2rem;
+		padding: $gap-lg;
 		transition: background-color 0.3s ease;
 
 		@include medium {
@@ -57,17 +57,17 @@
 
 		p {
 			font-size: 1rem;
-			color: $text-black;
-			margin-top: $gap-xs;
+			color: $dark-gray;
 		}
 
 		a {
+			display: block;
+			
 			> * {
 				font-weight: 700;
 				line-height: 1.2;
 				text-transform: uppercase;
 				color: $blue;
-				margin-top: $gap;
 			}
 		}
 	}

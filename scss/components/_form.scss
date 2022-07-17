@@ -1,0 +1,23 @@
+fieldset {
+	border: 0;
+	appearance: none;
+}
+
+label {
+	display: block;
+}
+
+input,
+textarea {
+	width: 100%;	
+	background-color: $white;
+	border: 0;
+}
+
+input {
+	height: 3rem;
+}
+
+textarea {
+	height: 6rem;
+}

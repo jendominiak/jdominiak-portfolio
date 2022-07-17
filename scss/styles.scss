@@ -3,9 +3,12 @@
 @import "common/_base";
 @import "common/_mixins";
 
+@import "components/_container";
+@import "components/_form";
+@import "components/_buttons";
+@import "components/_layout";
 @import "components/_header";
 @import "components/_footer";
-@import "components/_container";
 
 @import "sections/_intro";
 @import "sections/_work";

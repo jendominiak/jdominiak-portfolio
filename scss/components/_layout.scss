@@ -1,0 +1,29 @@
+.stack {
+	> * + * {
+		margin-block-start: $gap;
+	}
+
+	&-xl {
+		> * + * {
+			margin-block-start: $gap-xl;
+		}
+	}
+
+	&-lg {
+		> * + * {
+			margin-block-start: $gap-lg;
+		}
+	}
+
+	&-sm {
+		> * + * {
+			margin-block-start: $gap-sm;
+		}
+	}
+
+	&-xs {
+		> * + * {
+			margin-block-start: $gap-xs;
+		}
+	}
+}

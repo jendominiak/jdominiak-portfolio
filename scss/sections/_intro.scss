@@ -47,10 +47,6 @@
 				font-size: $gap-lg;
 				font-weight: 700;
 			}
-
-			> * + * {
-				margin-block-start: $gap;
-			}
 		}
 	}
 }

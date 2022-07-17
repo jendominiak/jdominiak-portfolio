@@ -1,19 +1,28 @@
-<section id="contact" class="contact">
-    <div id="contactForm" class="contact__form">
-        <h2>Get in Touch</h2>
-        <p>To learn more, please download my
-            <a href="files/dominiak_resume.pdf" target="_blank">r&eacute;sum&eacute;</a>. To start a conversation, please contact me using the form below, or email me at
-            <a href-"mailto:jdominiak@gmail.com">jdominiak@gmail.com</a>.</p>
-        <form id="contact_form" action="/webformmailer.php" method="post">
+<section id="contact" class="contact stack-xl">
+    <h2 class="sr-only">Contact</h2>
+    <div id="contactForm" class="contact-form stack-lg">
+        <div class="contact-copy stack">
+            {% markdown %}
+            {{ contact.copy }}
+            {% endmarkdown %}
+        </div>
+        <form id="contact_form" class="stack-lg" action="/webformmailer.php" method="post">
             <input type="hidden" name="subject" value="Submission"/>
             <input type="hidden" name="redirect" value="thanks.html"/>
-            <label for="name">Name:</label>
-            <input type="text" name="name" required/>
-            <label for="email">E-mail:</label>
-            <input type="email" name="email" required pattern="^\S+@\S+\.\S+$"/>
-            <label for="msg">Message:</label>
-            <textarea name="msg" required></textarea>
-            <button class="button" type="submit">Send Your Message</button>
+            <fieldset class="stack-xs">
+                <label for="name">Name:</label>
+                <input type="text" name="name" required/>
+            </fieldset>
+            <fieldset class="stack-xs">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" required pattern="^\S+@\S+\.\S+$"/>
+            </fieldset>
+            <fieldset class="stack-xs">
+                <label for="msg">Message:</label>
+                <textarea name="msg" required></textarea>
+            </fieldset>
+            <button class="btn" type="submit">Send Your Message</button>
         </form>
     </div>
+    {% include "components/footer.njk" %}
 </section>
