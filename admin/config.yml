@@ -105,24 +105,3 @@ collections:
                       widget: "file",
                       required: false,
                     }
-
-  - name: "pages"
-    label: "Pages"
-    folder: "pages"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {
-          label: "Layout",
-          name: "layout",
-          widget: "hidden",
-          default: "layouts/page.njk",
-        }
-      - { label: "Page Title", name: "pagetitle", widget: "string" }
-      - label: "Specified Section Group"
-        name: "sectionGroupList"
-        widget: "relation"
-        collection: "sections"
-        search_fields: ["sectionGroupName"]
-        value_field: "{{slug}}"
-        display_fields: ["sectionGroupName"]
