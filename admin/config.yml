@@ -18,10 +18,10 @@ collections:
   - name: "work"
     label: "Work"
     widget: "list"
-    file: "_data/work.json"
-    fields:
-      - label: "Projects"
-        name: "projects"
+    files:
+      - file: "_data/work.json"
+        label: "Projects"
+        name: "project"
         widget: "object"
         fields:
           - {
