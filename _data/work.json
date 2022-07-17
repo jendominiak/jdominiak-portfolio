@@ -45,5 +45,13 @@
       "alt": "Burpee recipe card for cupcake squash.",
       "pdf": "/images/uploads/burpee-recipe-cards.pdf"
     }
+  ],
+  "project": [
+    {
+      "title": "Test",
+      "body": "test",
+      "image": "/images/uploads/handpicked-vegetables.jpeg",
+      "alt": "test"
+    }
   ]
 }
