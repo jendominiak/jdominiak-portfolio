@@ -1,11 +1,13 @@
 <section id="intro" class="intro">
     <img class="intro__bg" src="{{ intro.hero }}" alt="hero"/>
-    <div class="intro__content">
-        <img src="{{ intro.logo }}" alt="logo"/>
-        <div class="intro__content__copy">
-            {% markdown %}
-            {{ intro.copy }}
-            {% endmarkdown %}
+    <div class="intro__container">
+        <div class="intro__content">
+            <img src="{{ intro.logo }}" alt="logo"/>
+            <div class="intro__content__copy">
+                {% markdown %}
+                {{ intro.copy }}
+                {% endmarkdown %}
+            </div>
         </div>
     </div>
 </section>

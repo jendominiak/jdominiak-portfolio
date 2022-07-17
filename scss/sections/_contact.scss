@@ -1,3 +1,8 @@
 .contact {
+	min-height: 100vh;
 	background-color: $bg-md-blue;
+
+	&__form {
+		@extend .container-sm;
+	}
 }

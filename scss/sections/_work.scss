@@ -1,23 +1,17 @@
 .work {
-	padding: 2rem 0;
+	padding: $gap-lg 0;
 	background-color: $bg-pale-blue;
 
 	@include medium {
-		padding: 1rem 0;
+		padding: $gap 0;
 	}
 }
 
 .grid {
+	@extend .container;
 	display: flex;
 	justify-content: space-between;
 	gap: 0.5rem;
-	width: calc(100% - 4rem);
-	max-width: 1200px;
-	margin: 0 auto 2rem auto;
-
-	@include medium {
-		width: calc(100% - 2rem);
-	}
 
 	@include small {
 		display: block;
@@ -32,7 +26,7 @@
 					p {
 						font-size: 1.1rem;
 						color: $blue;
-						margin-bottom: 1rem;
+						margin-bottom: $gap;
 
 						&:last-child {
 							margin-bottom: 0;
@@ -48,7 +42,7 @@
 		transition: background-color 0.3s ease;
 
 		@include medium {
-			padding: 1rem;
+			padding: $gap;
 		}
 
 		&:hover {
@@ -64,7 +58,7 @@
 		p {
 			font-size: 1rem;
 			color: $text-black;
-			margin-top: 0.25rem;
+			margin-top: $gap-xs;
 		}
 
 		a {
@@ -73,7 +67,7 @@
 				line-height: 1.2;
 				text-transform: uppercase;
 				color: $blue;
-				margin-top: 1.5rem;
+				margin-top: $gap;
 			}
 		}
 	}

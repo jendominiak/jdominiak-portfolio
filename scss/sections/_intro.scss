@@ -17,33 +17,39 @@
 		object-position: center;
 	}
 
+	&__container {
+		position: relative;
+		margin-bottom: 10vh;
+		background-color: rgba($white, .85);
+		z-index: 1;
+	}
+
 	&__content {
+		@extend .container-sm;
 		position: relative;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 2rem;
-		margin-bottom: 10vh;
-		padding: 2rem 0;
-		background-color: $white;
-		z-index: 1;
-
+		gap: $gap-lg;
+		padding: $gap-lg;
+		
 		img {
+			flex: 1;
 			display: block;
-			width: auto;
-			height: 100%;
+			width: 100%;
+			height: auto;
 		}
 
 		&__copy {
-			max-width: 60ch;
+			flex: 2;
 
 			h1 {
-				font-size: 2rem;
+				font-size: $gap-lg;
 				font-weight: 700;
 			}
 
 			> * + * {
-				margin-block-start: 1rem;
+				margin-block-start: $gap;
 			}
 		}
 	}

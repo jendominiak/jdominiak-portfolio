@@ -1,3 +1,14 @@
+html {
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
 body {
 	letter-spacing: 1.7;
 	color: $text-black;
@@ -10,6 +21,10 @@ body {
 	}
 }
 
+section {
+	padding-top: $nav-height;
+}
+
 h1 {
 	font-size: 2rem;
 	line-height: 1;
@@ -17,7 +32,7 @@ h1 {
 
 p,
 li {
-	line-height: 1.7;
+	line-height: 1.6;
 }
 
 a {

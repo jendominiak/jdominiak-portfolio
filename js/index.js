@@ -1,4 +1,28 @@
 document.addEventListener("DOMContentLoaded", () => {
+	// set current nav link
+	const changeNav = (entries, observer) => {
+		entries.forEach((entry) => {
+			if (entry.isIntersecting) {
+				document.querySelector(".current").classList.remove("current");
+				var id = entry.target.getAttribute("id");
+				var newLink = document
+					.querySelector(`[href="#${id}"]`)
+					.classList.add("current");
+			}
+		});
+	};
+
+	const options = {
+		threshold: 0.1,
+	};
+
+	const observer = new IntersectionObserver(changeNav, options);
+
+	const sections = document.querySelectorAll("section");
+	sections.forEach((section) => {
+		observer.observe(section);
+	});
+
 	// work masonry
 	const masonry = () => {
 		const grid = document.querySelector(".grid"),

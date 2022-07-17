@@ -1,0 +1,27 @@
+.container {
+	width: calc(100% - #{$gap-xl});
+	max-width: 75rem;
+	margin-inline: auto;
+
+	@include medium {
+		width: calc(100% - #{$gap-lg});
+	}
+
+	@include small {
+		width: calc(100% - #{$gap});
+	}
+}
+
+.container-sm {
+	width: calc(100% - #{$gap-xl});
+	max-width: 56rem;
+	margin-inline: auto;
+
+	@include medium {
+		width: calc(100% - #{$gap-lg});
+	}
+
+	@include small {
+		width: calc(100% - #{$gap});
+	}
+}
