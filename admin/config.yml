@@ -7,7 +7,7 @@ public_folder: "/images/uploads"
 collections:
   - name: "intro"
     label: "Intro"
-    - file: "_data/intro.json"
+    file: "_data/intro.json"
     fields:
       - { label: "Background Image", name: "hero", widget: "image" }
       - { label: "Logo", name: "logo", widget: "image" }
