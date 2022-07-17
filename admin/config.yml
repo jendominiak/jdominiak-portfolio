@@ -15,27 +15,27 @@ collections:
           - { label: "Background Image", name: "hero", widget: "image" }
           - { label: "Logo", name: "logo", widget: "image" }
           - { label: "Intro", name: "copy", widget: "markdown" }
-   - label: "Work"
-      name: "work"
-      widget: "list"
-      file: "_data/work.json"
-      fields: 
-        - label: "Projects"
-          name: "projects"
-          widget: "object"
-          fields:
+  - name: "work"
+    label: "Work"
+    widget: "list"
+    file: "_data/work.json"
+    fields: 
+      - label: "Projects"
+        name: "projects"
+        widget: "object"
+        fields:
         - {
-            label: "Title",
-            name: "title",
-            widget: "markdown",
-            required: false,
-          }
+          label: "Title",
+          name: "title",
+          widget: "markdown",
+          required: false,
+        }
         - { label: "Body", name: "body", widget: "markdown" }
         - { label: "Image", name: "image", widget: "image", required: false }
         - {
-            label: "Image Alt Text",
-            name: "alt",
-            widget: "string",
-            required: false,
-          }
+        label: "Image Alt Text",
+        name: "alt",
+        widget: "string",
+        required: false,
+        }
         - { label: "PDF", name: "pdf", widget: "file", required: false }
