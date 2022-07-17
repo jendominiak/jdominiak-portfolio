@@ -19,41 +19,31 @@ collections:
     label: "Work"
     files:
       - file: "_data/work.json"
-          - label: "Projects"
-            name: "projects"
-            widget: "object"
+        label: "Projects"
+        name: "projects"
+        widget: "object"
+        fields:
+          - label: "Work"
+            name: "work"
+            widget: "list"
             fields:
-              - label: "Work"
-                name: "work"
-                widget: "list"
-                fields:
-                  - {
-                      label: "Title",
-                      name: "title",
-                      widget: "markdown",
-                      required: false,
-                    }
-                  - { label: "Body", name: "body", widget: "markdown" }
-                  - {
-                      label: "Image",
-                      name: "image",
-                      widget: "image",
-                      required: false,
-                    }
-                  - {
-                      label: "Image Alt Text",
-                      name: "alt",
-                      widget: "string",
-                      required: false,
-                    }
-                  - {
-                      label: "PDF",
-                      name: "pdf",
-                      widget: "file",
-                      required: false,
-                    }
-
-
-
-
-
+              - {
+                  label: "Title",
+                  name: "title",
+                  widget: "markdown",
+                  required: false,
+                }
+              - { label: "Body", name: "body", widget: "markdown" }
+              - {
+                  label: "Image",
+                  name: "image",
+                  widget: "image",
+                  required: false,
+                }
+              - {
+                  label: "Image Alt Text",
+                  name: "alt",
+                  widget: "string",
+                  required: false,
+                }
+              - { label: "PDF", name: "pdf", widget: "file", required: false }
