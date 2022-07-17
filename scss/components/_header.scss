@@ -1,0 +1,23 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba($white, 0.8);
+	z-index: 999;
+
+	&__nav {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		gap: 2rem;
+		width: calc(100% - 4rem);
+		height: $nav-height;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+	&__link {
+		list-style: none;
+	}
+}

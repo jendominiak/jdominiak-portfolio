@@ -35,7 +35,5 @@
     "nunjucks-markdown": "^2.0.1",
     "sass": "^1.32.2"
   },
-  "dependencies": {
-    "masonry-layout": "^4.2.2"
-  }
+  "dependencies": {}
 }
