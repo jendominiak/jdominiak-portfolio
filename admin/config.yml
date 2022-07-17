@@ -17,12 +17,12 @@ collections:
           - { label: "Intro", name: "copy", widget: "markdown" }
   - name: "work"
     label: "Work"
-    widget: "list"
+    widget: "object"
     files:
       - file: "_data/work.json"
         label: "Projects"
         name: "project"
-        widget: "object"
+        widget: "list"
         fields:
           - {
               label: "Title",
