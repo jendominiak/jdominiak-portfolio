@@ -18,7 +18,7 @@ collections:
   - name: "work"
     label: "Work"
     files:
-      - file: "_data/work"
+      - file: "_data/work.json"
         label: "Projects"
         name: "projects"
         widget: "list"
