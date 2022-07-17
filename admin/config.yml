@@ -17,10 +17,9 @@ collections:
           - { label: "Intro", name: "copy", widget: "markdown" }
   - name: "work"
     label: "Work"
-    folder: "_data/work"
-    format: "json"
-    fields:
-      - label: "Projects"
+    files:
+      - file: "_data/work"
+        label: "Projects"
         name: "projects"
         widget: "list"
         fields:
