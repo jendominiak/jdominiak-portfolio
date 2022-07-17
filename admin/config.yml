@@ -19,12 +19,12 @@ collections:
     label: "Work"
     files:
       - file: "_data/work.json"
-        label: "Projects"
-        name: "projects"
+        label: "Work"
+        name: "work"
         widget: "object"
         fields:
-          - label: "Work"
-            name: "work"
+          - label: "Project"
+            name: "project"
             widget: "list"
             fields:
               - {
