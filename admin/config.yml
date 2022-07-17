@@ -5,6 +5,12 @@ backend:
 media_folder: "_site/images/uploads"
 public_folder: "/images/uploads"
 collections:
+  - name: "intro"
+    label: "Intro"
+    fields:
+      - { label: "Background Image", name: "hero", widget: "image" }
+      - { label: "Logo", name: "logo", widget: "image" }
+      - { label: "Intro Text", name: "intro", widget: "markdown" }
   - name: "settings"
     label: "Settings"
     files:
