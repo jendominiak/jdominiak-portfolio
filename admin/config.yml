@@ -15,93 +15,27 @@ collections:
           - { label: "Background Image", name: "hero", widget: "image" }
           - { label: "Logo", name: "logo", widget: "image" }
           - { label: "Intro", name: "copy", widget: "markdown" }
-  - name: "sections"
-    label: "Sections"
-    folder: "_data/sections"
+  - name: "work"
+    label: "Work"
+    folder: "_data/work"
     format: "json"
-    create: true
-    slug: "{{slug}}"
-    identifier_field: sectionGroupName
     fields:
-      - label: "Section Group Name"
-        name: "sectionGroupName"
-        widget: "string"
-      - label: "Sections"
-        name: "sectionGroupList"
+      - label: "Projects"
+        name: "projects"
         widget: "list"
-        required: false
-        types:
-          - label: "Basic"
-            name: "basic"
-            widget: "object"
-            fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Description", name: "description", widget: "string" }
-              - { label: "Content", name: "body", widget: "markdown" }
-          - label: "Image Left"
-            name: "imageleft"
-            widget: "object"
-            fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Description", name: "description", widget: "string" }
-          - label: "Image Right"
-            name: "imageright"
-            widget: "object"
-            fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Description", name: "description", widget: "string" }
-              - { label: "Content", name: "body", widget: "markdown" }
-          - label: "Four Columns"
-            name: "fourcolumns"
-            widget: "object"
-            fields:
-              - { label: "Column 1", name: "columnFirst", widget: "markdown" }
-              - { label: "Column 2", name: "columnSecond", widget: "markdown" }
-              - { label: "Column 3", name: "columnThird", widget: "markdown" }
-              - { label: "Column 4", name: "columnFour", widget: "markdown" }
-          - label: "Three Columns"
-            name: "threecolumns"
-            widget: "object"
-            fields:
-              - { label: "Column 1", name: "columnFirst", widget: "markdown" }
-              - { label: "Column 2", name: "columnSecond", widget: "markdown" }
-              - { label: "Column 3", name: "columnThird", widget: "markdown" }
-          - label: "Two Columns"
-            name: "twocolumns"
-            widget: "object"
-            fields:
-              - { label: "Column 1", name: "columnFirst", widget: "markdown" }
-              - { label: "Column 2", name: "columnSecond", widget: "markdown" }
-          - label: "Projects"
-            name: "recentprojects"
-            widget: "object"
-            fields:
-              - label: "Work"
-                name: "work"
-                widget: "list"
-                fields:
-                  - {
-                      label: "Title",
-                      name: "title",
-                      widget: "markdown",
-                      required: false,
-                    }
-                  - { label: "Body", name: "body", widget: "markdown" }
-                  - {
-                      label: "Image",
-                      name: "image",
-                      widget: "image",
-                      required: false,
-                    }
-                  - {
-                      label: "Image Alt Text",
-                      name: "alt",
-                      widget: "string",
-                      required: false,
-                    }
-                  - {
-                      label: "PDF",
-                      name: "pdf",
-                      widget: "file",
-                      required: false,
-                    }
+        fields:
+          - {
+              label: "Title",
+              name: "title",
+              widget: "markdown",
+              required: false,
+            }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Image", name: "image", widget: "image", required: false }
+          - {
+              label: "Image Alt Text",
+              name: "alt",
+              widget: "string",
+              required: false,
+            }
+          - { label: "PDF", name: "pdf", widget: "file", required: false }

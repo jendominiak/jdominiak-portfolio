@@ -3,8 +3,3 @@ layout: layouts/base.njk
 pagetitle: "Jennifer Dominiak | Portfolio"
 permalink: /
 ---
-
-{% import "components/sectionmapper.njk" as sm %}
-{% for section in sections[variables.homepageSectionGroup].sectionGroupList %}
-    {{ sm.sectionMapper(section) }}
-{% endfor %}

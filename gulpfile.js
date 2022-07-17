@@ -6,14 +6,6 @@ const postcss = require("gulp-postcss");
 const sourcemaps = require("gulp-sourcemaps");
 const jsonToSass = require("gulp-json-data-to-sass");
 
-function jsonCss() {
-	return src("./stylevariables.json").pipe(
-		jsonToSass({
-			sass: "./scss/stylevariables.scss",
-			separator: "",
-		})
-	);
-}
 function cssTask() {
 	return src("./scss/*.scss", { allowEmpty: true })
 		.pipe(sourcemaps.init())
@@ -26,9 +18,8 @@ function cssTask() {
 
 function watchFiles() {
 	watch("./scss/**", parallel(cssTask));
-	watch("./stylevariables.json", parallel(jsonCss));
 }
 
-exports.build = series(jsonCss, cssTask);
+exports.build = series(cssTask);
 
-exports.default = series(jsonCss, parallel(cssTask, watchFiles));
+exports.default = series(parallel(cssTask, watchFiles));
