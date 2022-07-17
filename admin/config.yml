@@ -7,11 +7,14 @@ public_folder: "/images/uploads"
 collections:
   - name: "intro"
     label: "Intro"
-    file: "_data/intro.json"
-    fields:
-      - { label: "Background Image", name: "hero", widget: "image" }
-      - { label: "Logo", name: "logo", widget: "image" }
-      - { label: "Intro", name: "copy", widget: "markdown" }
+    files:
+      - file: "_data/intro.json"
+        label: "Intro Content"
+        name: "introContent"
+        fields:
+          - { label: "Background Image", name: "hero", widget: "image" }
+          - { label: "Logo", name: "logo", widget: "image" }
+          - { label: "Intro", name: "copy", widget: "markdown" }
   - name: "settings"
     label: "Settings"
     files:
