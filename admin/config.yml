@@ -9,7 +9,7 @@ collections:
     label: "Intro"
     files:
       - file: "_data/intro.json"
-        label: "Intro Content"
+        label: "Content"
         name: "introContent"
         fields:
           - { label: "Background Image", name: "hero", widget: "image" }
@@ -19,8 +19,8 @@ collections:
     label: "Work"
     files:
       - file: "_data/work.json"
-        label: "Work"
-        name: "work"
+        label: "Work Content"
+        name: "workContent"
         widget: "object"
         fields:
           - label: "Projects"
@@ -47,3 +47,11 @@ collections:
                   required: false,
                 }
               - { label: "PDF", name: "pdf", widget: "file", required: false }
+  - name: "contact"
+    label: "Contact"
+    files:
+      - file: "_data/contact.json"
+        label: "Content"
+        name: "contactContent"
+        fields:
+          - { label: "Copy", name: "copy", widget: "markdown" }
