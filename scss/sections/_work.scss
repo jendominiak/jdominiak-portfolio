@@ -49,24 +49,35 @@
 			background: $white;
 		}
 
+		a {
+
+			display: block;
+
+			>* {
+				font-weight: 700;
+				line-height: 1.2;
+				text-transform: uppercase;
+				color: $blue;
+			}
+		}
+
 		img {
 			display: block;
 			width: 100%;
 			border: 1px solid $border-gray;
 		}
 
+		h3 {
+			font-size: 1rem;
+			text-transform: uppercase;
+		}
+
 		p {
 			font-size: 1rem;
 			color: $dark-gray;
-		}
 
-		a {
-			
-			> * {
-				font-weight: 700;
-				line-height: 1.2;
-				text-transform: uppercase;
-				color: $blue;
+			& > a {
+				display: inline;
 			}
 		}
 	}
