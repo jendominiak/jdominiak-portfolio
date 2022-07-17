@@ -23,8 +23,8 @@ collections:
         name: "work"
         widget: "object"
         fields:
-          - label: "Project"
-            name: "project"
+          - label: "Projects"
+            name: "projects"
             widget: "list"
             fields:
               - {
