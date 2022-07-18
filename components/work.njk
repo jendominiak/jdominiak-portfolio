@@ -4,26 +4,36 @@
         <div class="grid-list">
             {% set projects = work.projects %}
             {% for project in projects %}
-                <div class="grid-item stack-sm">
-                    {% if project.image %}
-                        <img src="{{ project.image }}" alt="{{ project.alt }}"/>
-                    {% endif %}
-                    {% if project.title %}
-                        {% if project.pdf %}
-                            <a href="{{ project.pdf }}" target="_blank">
-                                {% markdown %}
-                                {{ project.title }}
-                                {% endmarkdown %}
-                            </a>
-                        {% else %}
-                            {% markdown %}{{ project.title }}{% endmarkdown %}
+                {% if (loop.index === 1) %}
+                    <div class="grid-item grid-intro stack-lg">
+                    {% else %}
+                        <div class="grid-item stack">
                         {% endif %}
-                    {% endif %}
-                    {% markdown %}
-                    {{ project.body }}
-                    {% endmarkdown %}
+                        {% if project.image %}
+                            <img src="{{ project.image }}" alt="{{ project.alt }}"/>
+                        {% endif %}
+                        {% if (loop.index === 1) %}
+                            <div class="stack">
+                            {% else %}
+                                <div class="stack-sm">
+                                {% endif %}
+                                {% if project.title %}
+                                    {% if project.pdf %}
+                                        <a href="{{ project.pdf }}" target="_blank">
+                                            {% markdown %}
+                                            {{ project.title }}
+                                            {% endmarkdown %}
+                                        </a>
+                                    {% else %}
+                                        {% markdown %}{{ project.title }}{% endmarkdown %}
+                                    {% endif %}
+                                {% endif %}
+                                {% markdown %}
+                                {{ project.body }}
+                                {% endmarkdown %}
+                            </div>
+                        </div>
+                    {% endfor %}
                 </div>
-            {% endfor %}
-        </div>
-    </div>
-</section>
+            </div>
+        </section>

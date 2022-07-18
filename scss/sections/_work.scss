@@ -19,22 +19,6 @@
 
 	&-col {
 		flex: 1;
-
-		&:first-child {
-			.grid-item {
-				&:first-child {
-					p {
-						font-size: 1.1rem;
-						color: $blue;
-						margin-bottom: $gap;
-
-						&:last-child {
-							margin-bottom: 0;
-						}
-					}
-				}
-			}
-		}
 	}
 
 	&-item {
@@ -79,6 +63,13 @@
 			& > a {
 				display: inline;
 			}
+		}
+	}
+
+	&-intro {
+		p {
+			font-weight: 700;
+			color: $blue;
 		}
 	}
 }
