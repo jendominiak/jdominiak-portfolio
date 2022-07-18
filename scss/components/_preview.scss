@@ -1,17 +1,31 @@
 .frame-content {
+	max-width: 60ch;
 
 	div {
 		margin-block: 2rem;
 	}
 
-	h1, h2, p {
-		font-size: .9rem;
+	h1, h2, h3, p {
 		margin-block: 1rem
+	}
+
+	h1 {
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+
+	h2 {
+		font-size: 1.1rem;
+		font-weight: bold;
+	}
+
+	h3 {
+		font-size: 1rem;
+		font-weight: bold;
 	}
 
 	img {
 		display: block;
 		width: 100%;
-		max-width: 30rem;
 	}
 }
