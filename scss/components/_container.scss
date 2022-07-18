@@ -25,3 +25,17 @@
 		width: calc(100% - #{$gap});
 	}
 }
+
+.container-xs {
+	width: calc(100% - #{$gap-xl});
+	max-width: 45rem;
+	margin-inline: auto;
+
+	@include medium {
+		width: calc(100% - #{$gap-lg});
+	}
+
+	@include small {
+		width: calc(100% - #{$gap});
+	}
+}

@@ -6,10 +6,6 @@
 	background-color: $bg-md-blue;
 
 	&-form {
-		@extend .container-sm;
-	}
-
-	&-copy {
-		max-width: 75ch;
+		@extend .container-xs;
 	}
 }
