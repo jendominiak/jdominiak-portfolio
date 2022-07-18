@@ -1,11 +1,17 @@
 .frame-content {
 
 	div {
-		margin-block: 2em;
+		margin-block: 2rem;
+	}
+
+	h1, h2, p {
+		font-size: .9rem;
+		margin-block: 1rem
 	}
 
 	img {
 		display: block;
 		width: 100%;
+		max-width: 30rem;
 	}
 }
