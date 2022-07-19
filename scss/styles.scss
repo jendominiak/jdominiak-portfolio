@@ -2,14 +2,15 @@
 @import "common/_variables";
 @import "common/_base";
 @import "common/_mixins";
+@import "common/_layout";
 
-@import "components/_container";
-@import "components/_form";
-@import "components/_buttons";
-@import "components/_layout";
+@import "elements/_container";
+@import "elements/_form";
+@import "elements/_buttons";
+@import "elements/_preview";
+
 @import "components/_header";
 @import "components/_footer";
-@import "components/_preview";
 
 @import "sections/_intro";
 @import "sections/_work";

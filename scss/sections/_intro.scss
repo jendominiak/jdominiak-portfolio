@@ -6,7 +6,7 @@
 	flex-direction: column;
 	justify-content: flex-end;
 
-	&__bg {
+	&-bg {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -17,14 +17,14 @@
 		object-position: center;
 	}
 
-	&__container {
+	&-container {
 		position: relative;
 		margin-bottom: 10vh;
 		background-color: rgba($white, .85);
 		z-index: 1;
 	}
 
-	&__content {
+	&-content {
 		@extend .container-sm;
 		position: relative;
 		display: flex;
@@ -32,21 +32,29 @@
 		align-items: flex-end;
 		gap: $gap-lg;
 		padding: $gap-lg;
-		
+
+		@include small {
+			padding: $gap 0;
+		}
+
 		img {
 			flex: 1;
 			display: block;
 			width: 100%;
 			height: auto;
-		}
 
-		&__copy {
-			flex: 2;
-
-			h1 {
-				font-size: $gap-lg;
-				font-weight: 700;
+			@include small {
+				display: none;
 			}
+		}
+	}
+
+	&-copy {
+		flex: 2;
+
+		h1 {
+			font-size: $gap-lg;
+			font-weight: 700;
 		}
 	}
 }

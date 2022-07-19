@@ -6,10 +6,6 @@
 	@include medium {
 		width: calc(100% - #{$gap-lg});
 	}
-
-	@include small {
-		width: calc(100% - #{$gap});
-	}
 }
 
 .container-sm {
@@ -20,22 +16,14 @@
 	@include medium {
 		width: calc(100% - #{$gap-lg});
 	}
-
-	@include small {
-		width: calc(100% - #{$gap});
-	}
 }
 
 .container-xs {
 	width: calc(100% - #{$gap-xl});
-	max-width: 45rem;
+	max-width: 40rem;
 	margin-inline: auto;
 
 	@include medium {
 		width: calc(100% - #{$gap-lg});
-	}
-
-	@include small {
-		width: calc(100% - #{$gap});
 	}
 }
