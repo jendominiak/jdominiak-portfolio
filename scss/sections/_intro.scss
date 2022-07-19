@@ -43,8 +43,9 @@
 		display: block;
 		width: 100%;
 		height: auto;
-		transform: translateX(-100vw);
-		animation: translateRight 1.5s forwards;
+		opacity: 0;
+		transform: translateX(-50vw);
+		animation: fadeTranslateRight 1.5s forwards;
 
 		@include small {
 			display: none;
@@ -73,22 +74,14 @@
 	}
 }
 
-@keyframes translateRight {
-	from {
-		transform: translateX(-100vw);
+@keyframes fadeTranslateRight {
+	0% {
+		opacity: 0;
+		transform: translateX(-50vw);
 	}
 
-	to {
+	100% {
+		opacity: 1;
 		transform: translateX(0);
-	}
-}
-
-@keyframes translateDown {
-	from {
-		transform: translateY(-$gap);
-	}
-
-	to {
-		transform: translateY(0);
 	}
 }
