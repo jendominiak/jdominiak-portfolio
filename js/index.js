@@ -12,15 +12,35 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 	};
 
-	const options = {
+	const navOptions = {
 		threshold: 0.1,
 	};
 
-	const observer = new IntersectionObserver(changeNav, options);
+	const navObserver = new IntersectionObserver(changeNav, navOptions);
 
 	const sections = document.querySelectorAll("section");
 	sections.forEach((section) => {
-		observer.observe(section);
+		navObserver.observe(section);
+	});
+
+	// fade in work items
+	const fadeGridItem = (entries, observer) => {
+		entries.forEach((entry) => {
+			if (entry.isIntersecting) {
+				entry.target.classList.add("in-view");
+			}
+		});
+	};
+
+	const gridOptions = {
+		threshold: 0.1,
+	};
+
+	const gridObserver = new IntersectionObserver(fadeGridItem, gridOptions);
+
+	const gridItems = document.querySelectorAll(".grid-item");
+	gridItems.forEach((item) => {
+		gridObserver.observe(item);
 	});
 
 	// work masonry

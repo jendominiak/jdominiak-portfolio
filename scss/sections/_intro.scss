@@ -36,25 +36,59 @@
 		@include small {
 			padding: $gap 0;
 		}
+	}
 
-		img {
-			flex: 1;
-			display: block;
-			width: 100%;
-			height: auto;
+	&-logo {
+		flex: 1;
+		display: block;
+		width: 100%;
+		height: auto;
+		transform: translateX(-100vw);
+		animation: translateRight 1.5s forwards;
 
-			@include small {
-				display: none;
-			}
+		@include small {
+			display: none;
 		}
 	}
 
 	&-copy {
 		flex: 2;
+		opacity: 0;
+		animation: opacity 1.5s forwards .25s;
 
 		h1 {
 			font-size: $gap-lg;
 			font-weight: 700;
 		}
+	}
+}
+
+@keyframes opacity {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes translateRight {
+	from {
+		transform: translateX(-100vw);
+	}
+
+	to {
+		transform: translateX(0);
+	}
+}
+
+@keyframes translateDown {
+	from {
+		transform: translateY(-$gap);
+	}
+
+	to {
+		transform: translateY(0);
 	}
 }

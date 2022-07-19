@@ -19,7 +19,8 @@
 
 	&-item {
 		padding: $gap-lg;
-		transition: background-color 0.3s ease;
+		opacity: 0;
+		transition: opacity .3s ease, background-color 0.3s ease;
 
 		@include medium {
 			padding: $gap;
@@ -31,6 +32,10 @@
 
 		&:hover {
 			background: $white;
+		}
+
+		&.in-view {
+			opacity: 1;
 		}
 
 		a {
