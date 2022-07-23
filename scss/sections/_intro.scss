@@ -45,7 +45,7 @@
 		height: auto;
 		opacity: 0;
 		transform: translateX(-50vw);
-		animation: fadeTranslateRight 1.5s forwards;
+		animation: fadeTranslateRight 1s forwards;
 
 		@include small {
 			display: none;
