@@ -1,7 +1,8 @@
 {
   "projects": [
     {
-      "body": "My experiences in the worlds of design, public programming, exhibitions, and art education equip me with a unique collection of skills and a valuable lens in which to view your next project.\n\nI offer a variety of services, including concept development, creative strategy, design, copywriting/editing, print production, and project supervision."
+      "body": "My experiences in the worlds of design, public programming, exhibitions, and art education equip me with a unique collection of skills and a valuable lens in which to view your next project.\n\nI offer a variety of services, including concept development, creative strategy, design, copywriting/editing, print production, and project supervision.",
+      "title": ""
     },
     {
       "title": "### Berwyn Mayoral Campaign Logos",
@@ -55,6 +56,11 @@
       "body": "\nA stylized dragonfly image combined with a bold typeface evokes movement and strength for this Chicago-based personal training company.",
       "title": "### DRAGONFLY FITNESS LOGO",
       "image": "/images/uploads/dragonfly-fitness-logo.jpg"
+    },
+    {
+      "title": "### MUSE HANDBOOK (PDF)",
+      "body": "Students new to the Master of Arts in Museum and Exhibition Studies program at the University of Illinois at Chicago use this 44-page book as a guide to their studies.",
+      "pdf": "/images/uploads/01muse-handbook.pdf"
     }
   ]
 }
