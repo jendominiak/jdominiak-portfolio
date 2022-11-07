@@ -55,12 +55,15 @@
     {
       "body": "\nA stylized dragonfly image combined with a bold typeface evokes movement and strength for this Chicago-based personal training company.",
       "title": "### DRAGONFLY FITNESS LOGO",
-      "image": "/images/uploads/dragonfly-fitness-logo.jpg"
+      "image": "/images/uploads/dragonfly-fitness-logo.jpg",
+      "alt": ""
     },
     {
-      "title": "### MUSE HANDBOOK (PDF)",
+      "title": "### MUSE HANDBOOK",
       "body": "Students new to the Master of Arts in Museum and Exhibition Studies program at the University of Illinois at Chicago use this 44-page book as a guide to their studies.",
-      "pdf": "/images/uploads/01muse-handbook.pdf"
+      "pdf": "/images/uploads/01muse-handbook.pdf",
+      "image": "/images/uploads/01muse-handbook_page_01.jpg",
+      "alt": "Cover of MUSE Handbook."
     }
   ]
 }
