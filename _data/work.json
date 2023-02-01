@@ -62,13 +62,13 @@
       "title": "### MUSE HANDBOOK",
       "body": "Students new to the Master of Arts in Museum and Exhibition Studies program at the University of Illinois at Chicago use this 44-page book as a guide to their studies.",
       "pdf": "/images/uploads/01muse-handbook.pdf",
-      "image": "/images/uploads/01muse-handbook_page_01.jpg",
+      "image": "/images/uploads/uic_img_2743.jpg",
       "alt": "Cover of MUSE Handbook."
     },
     {
       "title": "### LEAVE NO CHILD INSIDE BOOKLET",
       "body": "This booklet was designed to help educate parents about the Leave No Child Inside Initiative, which promotes the benefits to children of outdoor play in nature.",
-      "image": "/images/uploads/03leave-no-child-inside-booklet_page_1.jpg",
+      "image": "/images/uploads/outdoor-kids_img_2762.jpg",
       "pdf": "/images/uploads/03leave-no-child-inside-booklet.pdf"
     },
     {
@@ -82,6 +82,11 @@
       "body": "This double-gatefold map and art education activity was designed in conjunction with *Takeover*, the opening exhibition at the new Hyde Park Art Center.",
       "image": "/images/uploads/mapping-art_img_2750.jpg",
       "pdf": "/images/uploads/08hyde-park-art-center-guide.pdf"
+    },
+    {
+      "title": "### *MAP* OBJECT LABELS",
+      "body": "More than fifty wall and case labels were designed for the Newberry Library exhibit *Mapping Manifest Destiny: Chicago and the American West*, part of Chicago’s Festival of Maps.",
+      "image": "/images/uploads/newberry-labels_img_2709.jpg"
     }
   ]
 }
