@@ -1,22 +1,20 @@
 {
   "projects": [
     {
-      "body": "My experiences in the worlds of design, public programming, exhibitions, and art education equip me with a unique collection of skills and a valuable lens in which to view your next project.\n\nI offer a variety of services, including concept development, creative strategy, design, copywriting/editing, print production, and project supervision.",
+      "body": "My experiences in the worlds of design, public programming, exhibitions, and education equip me with a unique collection of skills and a valuable lens in which to view your next project.\n\nI offer a variety of services, including concept development, creative strategy, design, and project supervision.",
       "title": ""
     },
     {
-      "title": "### Berwyn Mayoral Campaign Logos",
-      "image": "/images/uploads/berwyn_campaign_logo.jpeg",
-      "body": "These campaign logos were designed to provide a visual cue of the candidate’s key messages, build name recognition, and connect the candidate with Berwyn residents. The bold, modern design radiates energy, strength, and optimism and seeks to appeal to youth engagement with the community.",
-      "alt": "Boy riding in convertible holding campaign sign with campaign logo.",
-      "pdf": "/images/uploads/berwyn_campaign_logos.pdf"
+      "title": "### BALL REDBOOK",
+      "body": "The 19th edition of the *Ball RedBook* consists of two volumes and nearly 1,000 pages of information about annuals, perennials, greenhouses, and growing technology. This design of this \"bible\" of the greenhouse industry was completed while working closely with the project's co-designer.",
+      "image": "/images/uploads/ball-redbook_img_2692.jpg"
     },
     {
-      "title": "### *Latino Americans* Report",
-      "image": "/images/uploads/la500_final_report.jpeg",
-      "body": "This 64-page *Latino Americans: 500 Years of History* report was designed to highlight the National Endowment for the Humanities and American Library Association Public Programs Office’s nationwide public programming initiative that supported the exploration of the rich and varied history and experiences of Latinos, who have helped shape the United States over the last five centuries.",
-      "alt": "Cover for the Latino Americans report.",
-      "pdf": "/images/uploads/la500_final_report_2017_final.pdf"
+      "title": "### MUSE HANDBOOK",
+      "body": "Students new to the Master of Arts in Museum and Exhibition Studies program at the University of Illinois at Chicago use this 44-page book as a guide to their studies.",
+      "pdf": "/images/uploads/01muse-handbook.pdf",
+      "image": "/images/uploads/uic_img_2743.jpg",
+      "alt": "Cover of MUSE Handbook."
     },
     {
       "title": "### Community Cultural Fund Report",
@@ -26,6 +24,27 @@
       "pdf": "/images/uploads/ccf_brochure_2016_final.pdf"
     },
     {
+      "title": "### Berwyn Mayoral Campaign Logos",
+      "image": "/images/uploads/berwyn_campaign_logo.jpeg",
+      "body": "These campaign logos were designed to provide a visual cue of the candidate’s key messages, build name recognition, and connect the candidate with Berwyn residents. The bold, modern design radiates energy, strength, and optimism and seeks to appeal to youth engagement with the community.",
+      "alt": "Boy riding in convertible holding campaign sign with campaign logo.",
+      "pdf": "/images/uploads/berwyn_campaign_logos.pdf"
+    },
+    {
+      "title": "### HandPicked Vegetables Brochure",
+      "body": "Production work for this 16-page brochure featuring PanAmerican Seed’s HandPicked collection was completed while working closely with the project’s Art Director.\n\n© Ball Horticultural Company",
+      "image": "/images/uploads/handpicked-vegetables.jpeg",
+      "alt": "Cover for the Handpicked Vegetables brochure.",
+      "pdf": "/images/uploads/handpicked-catalog.pdf"
+    },
+    {
+      "title": "### *Latino Americans* Report",
+      "image": "/images/uploads/la500_final_report.jpeg",
+      "body": "This 64-page *Latino Americans: 500 Years of History* report was designed to highlight the National Endowment for the Humanities and American Library Association Public Programs Office’s nationwide public programming initiative that supported the exploration of the rich and varied history and experiences of Latinos, who have helped shape the United States over the last five centuries.",
+      "alt": "Cover for the Latino Americans report.",
+      "pdf": "/images/uploads/la500_final_report_2017_final.pdf"
+    },
+    {
       "title": "### *Muslim Journeys* Report",
       "image": "/images/uploads/muslim-journeys-report.jpeg",
       "body": "This 46-page *Muslim Journeys* report was designed to highlight the National Endowment for the Humanities and American Library Association Public Programs Office’s multi-faceted effort to bring humanities programming about Islamic history and culture to libraries and state humanities councils across the country.",
@@ -33,15 +52,8 @@
       "pdf": "/images/uploads/musilm-journeys-report.pdf"
     },
     {
-      "title": "### HandPicked Vegetables Brochure",
-      "body": "Production work for this 16-page brochure featuring PanAmerican Seed’s HandPicked collection was completed while working closely with the project’s Art Director.",
-      "image": "/images/uploads/handpicked-vegetables.jpeg",
-      "alt": "Cover for the Handpicked Vegetables brochure.",
-      "pdf": "/images/uploads/handpicked-catalog.pdf"
-    },
-    {
       "title": "### Burpee Recipe Cards",
-      "body": "These recipe cards were designed to feature Burpee vegetables and to highlight recipe ideas showcasing the bounty of the garden.",
+      "body": "These recipe cards were designed to feature Burpee vegetables and to highlight recipe ideas showcasing the bounty of the garden.\n\n© Ball Horticultural Company",
       "image": "/images/uploads/burpee-recipe-cards.jpeg",
       "alt": "Burpee recipe card for cupcake squash.",
       "pdf": "/images/uploads/burpee-recipe-cards.pdf"
@@ -57,13 +69,6 @@
       "title": "### DRAGONFLY FITNESS LOGO",
       "image": "/images/uploads/dragonfly-fitness-logo.jpg",
       "alt": ""
-    },
-    {
-      "title": "### MUSE HANDBOOK",
-      "body": "Students new to the Master of Arts in Museum and Exhibition Studies program at the University of Illinois at Chicago use this 44-page book as a guide to their studies.",
-      "pdf": "/images/uploads/01muse-handbook.pdf",
-      "image": "/images/uploads/uic_img_2743.jpg",
-      "alt": "Cover of MUSE Handbook."
     },
     {
       "title": "### LEAVE NO CHILD INSIDE BOOKLET",
@@ -88,11 +93,6 @@
       "body": "More than fifty wall and case labels were designed for the Newberry Library exhibit *Mapping Manifest Destiny: Chicago and the American West*, part of Chicago’s Festival of Maps.",
       "image": "/images/uploads/newberry-labels_img_2709.jpg",
       "pdf": "/images/uploads/05map-object-labels.pdf"
-    },
-    {
-      "title": "### BALL REDBOOK",
-      "body": "The 19th edition of the *Ball RedBook* consists of two volumes and nearly 1,000 pages of information about annuals, perennials, greenhouses, and growing technology. This design of this \"bible\" of the greenhouse industry was completed while working closely with the project's co-designer.",
-      "image": "/images/uploads/ball-redbook_img_2692.jpg"
     }
   ]
 }
