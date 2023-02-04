@@ -6,7 +6,7 @@
             {{ contact.copy }}
             {% endmarkdown %}
         </div>
-        <form id="contact_form" class="stack-lg" action="/webformmailer.php" method="post">
+        <form id="contact" class="stack-lg" name="contact" method="POST" data-netlify="true">
             <input type="hidden" name="subject" value="Submission"/>
             <input type="hidden" name="redirect" value="thanks.html"/>
             <fieldset class="stack-xs">
