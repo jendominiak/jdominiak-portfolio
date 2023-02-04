@@ -8,7 +8,7 @@
 	&-form {
 		@extend .container-xs;
 		
-		input
+		input,
 		textarea {
 			padding: .5rem;
 		}
